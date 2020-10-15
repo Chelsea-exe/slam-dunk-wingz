@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.nav-names {
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.nav-names li {
+    display: inline-block;
+}
+.nav-names li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+.nav-pages:hover {
+    border-bottom-right-radius: 20px;
+    border-bottom: solid blue 2px;
+}
+.carousel-item {
+    height: 32rem;
+    background: white;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.slam-car-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 60px;
+}
+/* .carousel-inner {
+    height: 30vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+} */
+#photo1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/Logo.png);
+}
+#photo2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/wings-landing.jpg);
+}
+#photo3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/memphis-skyline.jpg);
+}
